@@ -203,6 +203,12 @@ nav {
   line-height: 1.75rem;
 }
 
+.header__image{
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
 .header__links {
   display: flex;
   align-items: center;
