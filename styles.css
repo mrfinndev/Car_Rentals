@@ -156,7 +156,7 @@ nav {
 
 .header__container {
   display: grid;
-  gap: 2rem 0;
+  gap: 4rem 0;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -193,14 +193,14 @@ nav {
   bottom: -1rem;
   height: 4px;
   width: 2rem;
-  background-color: var(--primary-color);
+  background-color: var(--text-blue);
 }
 
 .header__content p {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-weight: 500;
-  color: var(--text-dark);
-  line-height: 1.75rem;
+  color: var(--text-blue);
+  line-height: 1.77rem;
 }
 
 
@@ -212,9 +212,9 @@ nav {
 }
 
 .header__links img {
-  max-width: 125px;
+  max-width: 120px;
   border-radius: 5px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .steps__container :is(.section__subheader, .section__header) {
